@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArtFight Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class = "stamp">
+            <div class = "website-header"> 
+                <div class = "header">
+                    <h1>YANA'S 2025 AF HITLIST!!!</h1>
+                    <img id = "largeKiss" src="images/kiss.png" alt="kiss mark">
+                    <img id = "smallKiss" src="images/kiss.png" alt="kiss mark">
+                </div>
+                <h4> HAIIIIII!!! so I coded this form bc im extra and I thought it could be a fun opportunity for a project!! sorry if its kinda janky I made this pretty fast, if they're any issues DM me (disc @kiwizee) and ill give you a big fat kiss 
+                <ul>
+                    <li>this isn't a guarantee I'll draw your characters, but its definitely a guarantee I'll em out!!! </li>
+                    <li>i'll only attack human/humanoid characters bc thats the only thing i can draw...i swear I'll learn how to draw anthros/furries soon...</li>
+                    <li>if you want a better chance at getting attacked, attack me with interaction art between my couples and you best BELIEVE you're getting destroyed</li>
+                </ul> 
+            </div>
+            <div class = "website-content">
+                <form id="hitlistForm"> 
+                    <div class = "question-box">
+                        <h2> MY ART EXAMPLES </h2>
+                        <div class = "art-example-images">
+                            <img src = "images/vivi_example.jpg" alt = "drawing of girl in dress">
+                            <img src = "images/ika_example.jpg" alt = "drawing of a long haired man">
+                            <img src = "images/skylar_example.jpg" alt = "drawing of a highschool boy">
+        
+                        </div>
+                    </div>
+                    <div class = "your-info-sec">
+                        <div class = "question-box">
+                            <h2>YOUR INFOOOOOO</h2>
+                            <label for = "aflink" id = "enter-text"><br>Enter your AF Link :3 <br> (https://artfight.net/~username)</label><br>
+                            <input type = "text" class = "text-input" id = "aflink" name = "aflink">
+                        </div>
+                        <div class = "question-box">
+                            <h3>Enter the team you're on (if teams aren't out yet choose 3rd option)!! </h3>
+                            <div class = "team-div">
+                                <input type = "radio" id="teamfriendly" name="team" value="Team Friendly" hidden>
+                                <label for = "teamfriendly" class = "team-btn">Team Friendly Fire</label><br>
+    
+                                <input type= "radio" id = "teamattack" name = "team" value = "Team Attack" hidden>
+                                <label for = "teamattack" class = "team-btn">Team Revenge</label><br>
+    
+                                <input type= "radio" id = "teamna" name = "team" value = "Team None" hidden>
+                                <label for = "teamna" class = "team-btn">What teams???</label><br>
+                            </div>
+                        </div>
+                        <div id = "checklist" class = "question-box">
+                            <h3>Check any of the following that apply to any character(s) on your af!!! <br>(basically, if you have any of the below, im obsessed)</h3>
+                            <div class="checkbox-option">
+                            <input type="checkbox" id="favchoice1" name="faves" value="Fantasy">
+                                <label for="favchoice1">Fantasy-inspired character</label>
+                            </div>
+
+                            <div class="checkbox-option">
+                                <input type="checkbox" id="favchoice2" name="faves" value="Historical">
+                                <label for="favchoice2">Historical character</label>
+                            </div>
+
+                             <div class="checkbox-option">
+                                <input type="checkbox" id="favchoice3" name="faves" value="SA">
+                                <label for="favchoice3">South Asian/Brown character</label>
+                            </div>
+
+                            <div class="checkbox-option">
+                                <input type="checkbox" id="favchoice4" name="faves" value="Fem">
+                                <label for="favchoice4">Very feminine/girly/gyaru character</label>
+                            </div>
+
+                            <div class="checkbox-option">
+                                <input type="checkbox" id="favchoice5" name="faves" value="Long haired men">
+                                <label for="favchoice5">Long haired men</label>
+                            </div>
+
+                            <div class="checkbox-option">
+                                <input type="checkbox" id="favchoice6" name="faves" value="Romance">
+                                <label for="favchoice6">Characters in a relationship/romantic dynamic</label>
+                            </div>
+                        </div>
+                        <div class = "question-box">
+                            <h3 id = "revenge-question">How likely RU to revenge <br>(be honest pleaseee! this doesn't matter that much, I attack characters I like, but I still want to know the honest answer)</h3>
+                            <div class="rating-scale">
+                                <label class = "scale-choice">
+                                    <input type="radio" name="rating" value="1">
+                                    <span>1</span>
+                                </label>
+                                <label class = "scale-choice">
+                                    <input type="radio" name="rating" value="2">
+                                    <span>2</span>
+                                </label>
+                                <label class = "scale-choice">
+                                    <input type="radio" name="rating" value="3">
+                                    <span>3</span>
+                                </label>
+                                <label class = "scale-choice">
+                                    <input type="radio" name="rating" value="4">
+                                    <span>4</span>
+                                </label>
+                                <label class = "scale-choice">
+                                    <input type="radio" name="rating" value="5">
+                                    <span>5</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class = "question-box">
+                            <label class = "label-q-title" for = "discord">Whatzz your discord user (for when the site inevitably goes down)</label><br>
+                            <input type = "text" class = "text-input" id = "discord" name = "discord">
+                        </div>
+                        <div class = "question-box">
+                            <label class = "label-q-title" for = "favchara">JUST FOR FUNSIES, who's your fav character on my <a href = "https://artfight.net/~zayamah">profile</a>???</label><br>
+                            <input type = "text" class = "text-input" id = "favchara" name = "favchara">
+                        </div>
+                        <div class = "question-box">
+                            <label class = "label-q-title" for = "extrainfo">Any extra info for me? Song reccs? Funny jokes? Any troubles orrr confessionss? im bored :P </label><br>
+                            <input type = "text" class = "text-input" id = "extrainfo" name = "extrainfo">
+                        </div>
+                        <div class = "ending-section">
+                            <div class = "ending-text">
+                                <h2>I LOVE YOU HAVE A GREAT SEASON!!!!</h2>
+                                <img src = "https://i.pinimg.com/originals/64/1a/58/641a584c05345c733e8e5d94f906e53c.gif" alt = "white and brown bear hugging">
+                            </div>
+                            <button id = "submit" type="submit">SUBMIT DONE DONE</button>
+                            <h4> Wait for popup saying form submitted successfully btw </h4>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
